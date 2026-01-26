@@ -46,4 +46,4 @@
 
 - **GitHub Issue**: [点击提交](https://github.com/MaaEnd/MaaEnd/issues)
 - **用户 QQ 群**: [1062010346](https://qm.qq.com/q/MN6XLvtZia)
-- **开发 QQ 群**: [1072587329](https://qm.qq.com/q/EyirQpBiW4)
+- **开发 QQ 群**: [1072587329](https://qm.qq.com/q/EyirQpBiW4) （干活群，欢迎加入一起开发，但不受理用户问题）

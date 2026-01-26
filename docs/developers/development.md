@@ -52,4 +52,4 @@
 
 ## 交流
 
-开发 QQ 群: [1072587329](https://qm.qq.com/q/EyirQpBiW4) （干活群，不受理用户问题）
+开发 QQ 群: [1072587329](https://qm.qq.com/q/EyirQpBiW4) （干活群，欢迎加入一起开发，但不受理用户问题）
