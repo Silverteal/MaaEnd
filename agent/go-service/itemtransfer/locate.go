@@ -45,7 +45,7 @@ func (*RepoLocate) Run(ctx *maa.Context, arg *maa.CustomRecognitionArg) (*maa.Cu
 				maa.NodeRecognitionTypeOCR,
 				maa.NodeOCRParam{
 					ROI: maa.NewTargetRect(
-						RepoRoi(row, col),
+						TooltipRoi(REPOSITORY, row, col),
 					),
 					OrderBy:  "Expected",
 					Expected: []string{itemName},
@@ -64,7 +64,7 @@ func (*RepoLocate) Run(ctx *maa.Context, arg *maa.CustomRecognitionArg) (*maa.Cu
 				defer ctx.OverridePipeline(fmt.Sprintf(template, row, col))
 
 				return &maa.CustomRecognitionResult{
-					Box:    RepoSquarePos(row, col),
+					Box:    ItemBoxRoi(REPOSITORY, row, col),
 					Detail: detail.DetailJson,
 				}, true
 			} else {
